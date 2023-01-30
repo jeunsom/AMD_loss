@@ -9,7 +9,7 @@ https://www.sciencedirect.com/science/article/pii/S0925231222014096
 ## Requirements
 * pytorch>=1.4.0
 * python>=3.6.0
-* resnet34.pth
+* resnet34.pth: 'https://download.pytorch.org/models/resnet34-333f7ec4.pth'
 
 ## Image Classification
 We use ImageNet classification as an example with a simple architecture. In order to reproduce the results described on the paper, please modify the hyperparameters. The users can also change the data to other dataset at their interest.
