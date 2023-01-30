@@ -9,9 +9,11 @@ https://www.sciencedirect.com/science/article/pii/S0925231222014096
 ## Requirements
 * pytorch>=1.4.0
 * python>=3.6.0
+* resnet34.pth
 
 ## Image Classification
 We use ImageNet classification as an example with a simple architecture. In order to reproduce the results described on the paper, please modify the hyperparameters. The users can also change the data to other dataset at their interest.
+To run the code, please download pre-trained resnet34.pth and then run with the model.
 
 ## Sample
 - global feature distillation:
