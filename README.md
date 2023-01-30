@@ -14,7 +14,7 @@ https://www.sciencedirect.com/science/article/pii/S0925231222014096
 We use ImageNet classification as an example with a simple architecture. In order to reproduce the results described on the paper, please modify the hyperparameters. The users can also change the data to other dataset at their interest.
 
 ## Sample
--global feature distillation:
+- global feature distillation:
 python3 train_student_imagenet_amd.py -b 256 --gpu 0 --distill amd
 - global + local feature distillation:
 python3 train_student_imagenet_amd4p.py -b 256 --gpu 0 --distill amd
